@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  002-docker-vscode:
+    image: 002-docker-vscode
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
