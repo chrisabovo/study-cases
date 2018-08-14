@@ -7,7 +7,7 @@ import LoginCreciService from '../service/login-creci.service';
 import BaseController from './base/base.controller';
 
 @controller('/users')
-export default class ValidarCreciController extends BaseController {
+export default class UserController extends BaseController {
   constructor(@inject(SERVICES.LoginCreciService) private loginCreciService: LoginCreciService) {
     super();
   }
@@ -24,4 +24,4 @@ export default class ValidarCreciController extends BaseController {
   }
 }
 
-Object.seal(ValidarCreciController);
+Object.seal(UserController);
