@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 160,
+  "todohighlight.isEnable": true,
+  "todohighlight.toggleURI": true,
+  "workbench.colorTheme": "Winter is Coming (Dark)"
+}
